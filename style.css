@@ -156,6 +156,12 @@ footer {
   text-align: center;
 }
 
+.card-lost-heroes img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
 /* responsive styles */
 
 @media screen and (max-width: 1400px) {
