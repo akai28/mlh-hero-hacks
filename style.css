@@ -39,6 +39,7 @@ header h1 {
 
 .banner img {
   max-width: 100%;
+  margin-top: 50px;
 }
 
 .banner .welcome {
@@ -49,10 +50,6 @@ header h1 {
   position: absolute;
   left: 0;
   top: 40%;
-}
-
-.banner .welcome span {
-  font-size: 1.2em;
 }
 
 nav {
@@ -97,23 +94,26 @@ main {
   box-sizing: border-box;
 }
 
-article h2 {
+.first-article h2 {
   color: #f63232;
   font-size: 48px;
 }
 
-article p {
-  line-height: 2em;
+.first-article p {
   color: #4b4b4b;
 }
 
-article p::first-line {
+.first-article p::first-line {
   font-weight: bold;
   font-size: 1.2em;
 }
 
 .article-span {
   font-size: 0.8em;
+}
+
+.uncle-ben {
+  font-weight: bold;
 }
 
 .images {
@@ -149,23 +149,6 @@ section.join h2 {
   font-size: 36px;
 }
 
-form input {
-  margin: 20px 0;
-  padding: 10px 20px;
-  font-size: 24px;
-  border-radius: 28px;
-  border: 2px solid #333333;
-}
-
-form input:focus {
-  border: 2px solid #4b4b4b;
-  outline: none;
-}
-
-form input:valid {
-  border: 2px solid #71d300;
-}
-
 footer {
   background: #f63232;
   color: white;
@@ -179,11 +162,22 @@ footer {
   .banner .welcome {
     font-size: 36px;
   }
+
+  .banner img {
+    max-width: 100%;
+    margin-top: 60px;
+  }
+
 }
 
 @media screen and (max-width: 960px) {
   .banner .welcome {
     font-size: 28px;
+  }
+
+  .banner img {
+    max-width: 100%;
+    margin-top: 0px;
   }
 
   nav li {
@@ -204,6 +198,11 @@ footer {
 
   .banner .welcome span {
     font-size: 1em;
+  }
+
+  .banner img {
+    max-width: 100%;
+    margin-top: 0px;
   }
 
   nav li {
@@ -230,6 +229,11 @@ footer {
 
   .banner .welcome span {
     font-size: 1em;
+  }
+
+  .banner img {
+    max-width: 100%;
+    margin-top: 0px;
   }
 
   nav li {
